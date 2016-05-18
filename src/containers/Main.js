@@ -1,5 +1,6 @@
 import React from "react";
 import InlineCss from "react-inline-css";
+import '../assets/css/main.scss'; //TODO: Agregue esta linea
 
 import favicon from "favicon.ico";
 

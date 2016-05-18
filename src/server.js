@@ -62,7 +62,6 @@ try {
 								<meta charset="utf-8" />
 								<title>react-isomorphic-starterkit</title>
 								<link rel="shortcut icon" href="${favicon}" />
-								<style>${cssModules}</style>
 							</head>
 							<body>
 								<div>${cssModules}</div>
@@ -102,6 +101,7 @@ try {
 			});
 		}
 	}
+
 }
 catch (error) {
 	console.error(error.stack || error);
